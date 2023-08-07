@@ -153,14 +153,19 @@ font-size: 12px;
 
 }
 
-.right img{
+.right{
 
-    position: absolute;
-    bottom: 0;
-    right: 20px;
+position: absolute;
+
+bottom: 0;
+
+right: -28px;
+
+width: 40%;
 }
 
 .content{
 
     position: relative;
+    min-height: 90vh;
 }
