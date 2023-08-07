@@ -146,3 +146,21 @@ font-weight: 700;
 
 font-size: 12px;
 }
+
+.right{
+
+   
+
+}
+
+.right img{
+
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+}
+
+.content{
+
+    position: relative;
+}
