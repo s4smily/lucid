@@ -1,0 +1,148 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+
+    margin: 0;
+    padding: 0;
+}
+
+header{
+
+    background-image: url(/graphics/banner_bg_1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.nav-item{
+
+    padding: 0px 10px;
+}
+
+
+.navbar-nav li a{
+
+    color: white;
+    font-weight: 500;
+    position: relative;
+    padding: 0 !important;
+    
+    
+}
+
+.navbar-nav li a::before{
+
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    height: 3px;
+    width: 0;
+    background-color: brown;
+    transition: .3s all ease-in-out;
+
+
+
+}
+
+.navbar-nav li a::after{
+
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -5px;
+    height: 3px;
+    width: 0;
+    background-color: brown;
+    transition: .3s all ease-in-out;
+
+
+
+
+
+}
+
+.navbar-nav li a:hover{
+
+    color: white;
+
+
+}
+
+.navbar-nav li a:hover::before{
+
+    width: 48%;
+    height: 3px;
+
+}
+
+.navbar-nav li a:hover::after{
+
+    width: 48%;
+    height: 3px;
+
+}
+
+.left h4{
+
+color: beige;
+
+font-size: 14px;
+
+font-weight: 400;
+
+text-transform: uppercase;
+}
+
+.left h2{
+
+color: white;
+
+font-size: 35px;
+
+font-weight: 500;
+
+text-transform: capitalize;
+
+margin-top: 20px;
+}
+
+.left p{
+
+color: aqua;
+
+font-size: 16px;
+
+font-weight: lighter;
+
+margin-top: 20px;
+
+margin-bottom: 49px;
+}
+
+.left a{
+
+
+}
+
+.btn{
+
+background: none;
+
+border: 1px solid;
+
+padding: 10px 17px;
+
+margin-right: 14px;
+
+border-radius: 3px;
+
+font-weight: 700;
+
+font-size: 12px;
+}
