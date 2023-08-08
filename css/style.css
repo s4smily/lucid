@@ -2,7 +2,10 @@
 
     margin: 0;
     padding: 0;
+<<<<<<< HEAD
     font-family: 'Source Sans 3', sans-serif;
+=======
+>>>>>>> main
 }
 
 h1, h2, h3, h4, h5, h6, p{
@@ -25,6 +28,7 @@ header{
     padding: 0px 10px;
 }
 
+<<<<<<< HEAD
 .navmenu{
 
     padding-top: 20px;
@@ -39,10 +43,22 @@ font-weight: 600;
 position: relative;
 
 padding: 0 !important;
+=======
+
+.navbar-nav li a{
+
+    color: white;
+    font-weight: 500;
+    position: relative;
+    padding: 0 !important;
+    
+    
+>>>>>>> main
 }
 
 .navbar-nav li a::before{
 
+<<<<<<< HEAD
 content: '';
 
 position: absolute;
@@ -58,10 +74,24 @@ width: 0;
 background-color: #008ed6;
 
 transition: .3s all ease-in-out;
+=======
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    height: 3px;
+    width: 0;
+    background-color: brown;
+    transition: .3s all ease-in-out;
+
+
+
+>>>>>>> main
 }
 
 .navbar-nav li a::after{
 
+<<<<<<< HEAD
 content: '';
 
 position: absolute;
@@ -77,6 +107,21 @@ width: 0;
 background-color: #008ed6;
 
 transition: .3s all ease-in-out;
+=======
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -5px;
+    height: 3px;
+    width: 0;
+    background-color: brown;
+    transition: .3s all ease-in-out;
+
+
+
+
+
+>>>>>>> main
 }
 
 .navbar-nav li a:hover{
@@ -102,11 +147,19 @@ transition: .3s all ease-in-out;
 
 .left h4{
 
+<<<<<<< HEAD
 color: #008ed6;
 
 font-size: 14px;
 
 font-weight: bolder;
+=======
+color: beige;
+
+font-size: 14px;
+
+font-weight: 400;
+>>>>>>> main
 
 text-transform: uppercase;
 }
@@ -115,9 +168,15 @@ text-transform: uppercase;
 
 color: white;
 
+<<<<<<< HEAD
 font-size: 42px;
 
 font-weight: 600;
+=======
+font-size: 35px;
+
+font-weight: 500;
+>>>>>>> main
 
 text-transform: capitalize;
 
@@ -126,11 +185,19 @@ margin-top: 20px;
 
 .left p{
 
+<<<<<<< HEAD
 color: #999999;
 
 font-size: 16px;
 
 font-weight: 400;
+=======
+color: aqua;
+
+font-size: 16px;
+
+font-weight: lighter;
+>>>>>>> main
 
 margin-top: 20px;
 
@@ -154,6 +221,7 @@ border-radius: 3px;
 font-weight: 700;
 
 font-size: 12px;
+<<<<<<< HEAD
 }
 
 
@@ -308,4 +376,6 @@ color: #008ed6;
 .middlepart{
 
     margin-bottom: 100px;
+=======
+>>>>>>> main
 }
