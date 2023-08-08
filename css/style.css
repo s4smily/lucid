@@ -172,32 +172,114 @@ width: 40%;
 
 .overview h4{
 
+text-transform: uppercase;
 
+font-size: 16px;
+
+margin-bottom: 8px;
 }
 
 .overview h1{
 
+font-size: 34px;
 
+/* text-transform: capitalize; */
+
+font-weight: bolder;
+
+/* margin-bottom: 65px; */
 }
 
 .overview span{
 
+display: block;
 
+height: 3px;
+
+width: 30px;
+
+
+margin: auto;
+
+margin: 20px auto;
+position: relative;
 }
+
+
+.overview span::before{
+    content: '';
+    background-color: blue;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    transition: .3s all ease-in-out;
+    position: absolute;
+}
+
+.overview span::after{
+    content: '';
+    background-color: blue;
+    right: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+
+    transition: .3s all ease-in-out;
+    position: absolute;
+}
+
+
+
+.overview:hover span::after{
+
+    width: 46%;
+}
+
+.overview:hover span::before{
+
+    width: 46%;
+}
+
+
 
 .responsive h2{
 
+text-align: center;
 
+text-transform: capitalize;
+
+margin: 8px;
+
+font-size: 32px;
+
+font-weight: 700;
 }
 
 .responsive p{
 
+text-align: center;
 
+font-size: 15px;
+
+font-weight: 300;
 }
 
 .icon{
 
+width: 70px;
 
+height: 70px;
+
+border: 1px solid;
+
+line-height: 70px;
+
+border-radius: 50%;
+
+text-align: center;
+
+margin: auto;
 }
 
 .icon i{
@@ -205,5 +287,7 @@ width: 40%;
     
 }
 
+.iconandtext{
 
-
+    margin-top: 60px;
+}
