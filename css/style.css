@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5, h6, p{
 
 header{
 
-    background-image: url(/graphics/banner_bg_1.png);
+    background-image: url(../graphics/banner_bg_1.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
