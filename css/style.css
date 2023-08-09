@@ -162,18 +162,18 @@ font-size: 12px;
 
 position: absolute;
 
-/* bottom: 20px; */
+right: -30px;
 
-right: -28px;
+width: 40%;
 
-width: 42%;
+bottom: 0%;
 }
 
 .content{
 
 position: relative;
 
-min-height: 90vh;
+min-height: 86vh;
 }
 
 .overview h4{
