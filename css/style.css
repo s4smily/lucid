@@ -309,3 +309,141 @@ color: #008ed6;
 
     margin-bottom: 100px;
 }
+
+.phonephoto{
+
+width: 30%;
+
+margin-right: 50px;
+}
+
+.phonephoto img{
+
+width: 100%;
+}
+
+.dtexts{
+}
+
+.dtexts h3{
+
+font-size: 12px;
+
+font-weight: 600;
+
+color: #008ed6;
+
+margin: 15px 0;
+}
+
+.dtexts h2{
+
+font-size: 30px;
+
+font-weight: 600;
+
+margin-bottom: 15px;
+}
+
+.dtexts p{
+
+font-size: 15px;
+
+margin-bottom: 20px;
+}
+
+.dtexts ul{
+
+list-style: none;
+
+/* margin: 0 0 !important; */
+
+padding: 0 0;
+}
+
+.dtexts ul li{
+
+display: flex;
+
+align-items: center;
+
+text-align: center;
+
+font-size: 13px;
+
+font-weight: 600;
+margin: 5px 0;
+}
+
+.dtexts span{
+
+    display: block;
+
+    height: 2px;
+    
+    width: 60px;
+    
+   
+    
+    margin: 15px 0;
+    
+    position: relative;
+    
+}
+
+.dtexts span::before{
+
+    content: '';
+    background-color: #008ed6;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    transition: .3s all ease-in-out;
+    position: absolute;
+}
+
+.dtexts span::after{
+
+    content: '';
+    background-color: #008ed6;
+    right: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    transition: .3s all ease-in-out;
+    position: absolute;
+}
+
+
+
+.dtexts:hover span::after{
+
+    width: 46%;
+}
+
+.dtexts:hover span::before{
+
+    width: 46%;
+}
+
+
+.smicon{
+
+margin-right: 8px;
+
+margin: 0;
+
+padding: 0;
+
+margin-right: 6px;
+
+color: #008ed6;
+}
+
+.dphoto{
+    
+margin: 50px 50px;
+    
+justify-content: center;
+}
