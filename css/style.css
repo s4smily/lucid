@@ -474,3 +474,75 @@ margin: 50px 50px;
     
 justify-content: center;
 }
+
+.customize{
+
+background-color: #f2f2f2;
+
+padding: 100px 0;
+}
+
+.customizetext{/* justify-content: flex-start; */position: relative;/* margin: auto; */}
+
+.textdiv h6{
+    font-size: 12px;
+    font-weight: 600;
+    color: #008ed6;
+    margin: 15px 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.textdiv{margin-left: 100px;}
+
+.textdiv h3{font-size: 30px;font-weight: 600;margin-bottom: 15px;}
+
+.textdiv p{font-size: 15px;margin-bottom: 20px;line-height: 24px;}
+
+.textdiv span{display: block;height: 2px;width: 60px;margin: 15px 0;position: relative;}
+
+.textdiv span::before {
+    content: '';
+    background-color: #008ed6;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    transition: .3s all ease-in-out;
+    position: absolute;
+}
+
+.textdiv span::after {
+    content: '';
+    background-color: #008ed6;
+    right: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    transition: .3s all ease-in-out;
+    position: absolute;
+}
+
+.textdiv:hover span::after{
+
+    width: 46%;
+}
+
+.textdiv:hover span::before{
+
+    width: 46%;
+}
+
+.iphonephoto{position: absolute;left: 56%;}
+
+.iphonephoto img{
+
+    transition: all 0.4s ease-in-out;
+    
+}
+
+.iphonephoto img:hover{
+
+    transform: scale(1.2, 1.2);
+}
+
