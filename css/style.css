@@ -167,6 +167,13 @@ right: -30px;
 width: 40%;
 
 bottom: 0%;
+
+transition: 0.4s all ease-in-out;
+}
+
+.right:hover{
+
+    transform: scale(1.1, 1.1);
 }
 
 .content{
@@ -296,6 +303,16 @@ text-align: center;
 margin: auto;
 
 color: #008ed6;
+
+transition: all 0.5s ease-in-out;
+
+}
+
+
+
+.icon:hover{
+
+    transform: rotate(360deg);
 }
 
 
@@ -312,6 +329,14 @@ color: #008ed6;
 width: 30%;
 
 margin-right: 50px;
+
+transition: 0.4s all ease-in-out;
+
+
+}
+
+.phonephoto:hover{
+    transform: scale(1.2, 1.2);
 }
 
 .phonephoto img{
@@ -435,7 +460,13 @@ padding: 0;
 margin-right: 6px;
 
 color: #008ed6;
+
+
 }
+
+
+
+
 
 .dphoto{
     
