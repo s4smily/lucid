@@ -862,7 +862,7 @@ border: 1px solid #999999;
 
 border-radius: 2px;
 
-padding: 15px 54px;
+padding: 10px 5px;
 
 display: block;
 
@@ -873,10 +873,18 @@ right: 0;
 margin:  10px 0;
 
 text-transform: uppercase;
-font-size: 10px;
+
+font-size: 13px;
+
 font-weight: bold;
 
 color: #999999;
+}
+
+.textarea button:hover{
+
+    color: white;
+    background-color: #008ed6;
 }
 .email input{
 
@@ -900,3 +908,50 @@ color: #999999;
     width: 50%;
 }
 
+.footeritems{
+
+    color: #f2f2f2;
+
+}
+
+.footeritems ul {
+
+list-style: none;
+
+display: flex;
+
+text-align: center;
+
+justify-content: center;
+}
+
+.footeritems ul li{
+
+/* display: flex; */
+
+margin: 0px 15px;
+
+padding-top: 35px;
+}
+
+.footeritems ul li i:hover{
+
+    color: #008ed6;
+}
+
+.footeritems ul li i{
+
+color: #9999;
+}
+
+.footeritems p{
+
+padding-bottom: 40px;
+
+color: #9999;
+}
+
+footer{
+
+    background-color: #1a1a1a;
+}
