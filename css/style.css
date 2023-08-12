@@ -795,4 +795,108 @@ text-transform: uppercase;
 .contactssec{
 
     padding-bottom: 200px;
+
+    position: relative;
 }
+
+.contactform{
+
+width: 50%;
+
+
+background: black;
+
+padding: 77px 50px;
+
+justify-content: center;
+
+position: absolute;
+
+bottom: -40%;
+
+left: 50%;
+
+transform: translateX(-50%);
+}
+
+.wrapper{
+
+    display: flex;
+}
+
+.textarea{
+
+position: relative;
+
+width: 50%;
+
+margin-left: 10px;
+
+height: 200px;
+}
+
+.textarea textarea{
+
+    height: 65%;
+    border-radius: 2px;
+    background: transparent;
+    border: 1px solid #999999;
+    
+}
+
+.textarea textarea::placeholder{
+
+    color: #999999;
+
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+
+.textarea button{
+
+background: transparent;
+
+border: 1px solid #999999;
+
+border-radius: 2px;
+
+padding: 15px 54px;
+
+display: block;
+
+position: absolute;
+
+right: 0;
+
+margin:  10px 0;
+
+text-transform: uppercase;
+font-size: 10px;
+font-weight: bold;
+
+color: #999999;
+}
+.email input{
+
+    border: none;
+    border: 1px solid #999999;
+    border-radius: 2px;
+    background-color: transparent;
+    
+}
+
+.email input::placeholder{
+
+    color: #999999;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.email{
+
+    width: 50%;
+}
+
