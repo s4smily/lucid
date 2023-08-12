@@ -538,7 +538,13 @@ padding: 100px 0;
 .iphonephoto img{
 
     transition: all 0.4s ease-in-out;
+    width: 100%;
     
+}
+
+.iphonephoto{
+
+    width: 500px;
 }
 
 .iphonephoto img:hover{
@@ -554,9 +560,8 @@ padding: 100px 0;
 .pricing1{
 
 text-align: center;
-margin-bottom: 50px;
 
-
+margin-bottom: 20px;
 }
 
 .pricing1 h6{
@@ -682,4 +687,112 @@ font-weight: 600;
     background-size: cover;
     background-position: center;
     
+}
+
+.cards{
+
+}
+
+.cards h3{
+
+
+    border: 1px solid #999999;
+}
+
+.cards h2{
+
+border: 1px solid #999999;
+
+border-top: none;
+
+padding: 30px 0;
+
+font-weight: bold;
+
+font-size: 48px;
+}
+
+.buttontext{
+
+border: 1px solid #999999;
+
+border-top: none;
+}
+
+.cards h2 sup{
+
+font-size: 25px;
+}
+
+.cards h2 sup br{
+
+
+    font-size: 10px;
+    
+}
+
+.cards h2 p{
+
+    font-size: 20px;
+}
+
+.buttontext h6{
+
+font-size: 15px;
+
+padding: 25px 15px;
+
+line-height: 20px;
+
+text-align: justify;
+}
+
+.buttontext button{
+
+margin-bottom: 21px;
+
+border-color: #9999;
+
+text-transform: uppercase;
+    border-radius: 2px;
+}
+
+.buttontext button:hover{
+
+    color: white;
+    background: #008ed6;
+    
+}
+
+
+.cards:hover.cards h2{
+
+    color: white;
+    background-color: #008ed6;
+
+}
+
+.cards:hover.cards h3{
+
+    color: #008ed6;
+   
+
+}
+
+.iconn{
+
+    color: #008ed6;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.contacts{
+
+    justify-content: space-between;
+    
+}
+
+.contactssec{
+
+    padding-bottom: 200px;
 }
