@@ -955,3 +955,33 @@ footer{
 
     background-color: #1a1a1a;
 }
+
+.owl-dot span{
+
+    height: 7px;
+    width: 7px;
+    background: transparent;
+    border: 1px solid gray;
+    display: block;
+    margin: 3px;
+    border-radius: 50px;
+
+}
+
+.owl-dots{
+
+    display: flex;
+    justify-content: center;
+}
+
+.owl-dot.active span{
+
+    background: white;
+    width: 10px;
+    height: 10px;
+}
+
+.googlemap iframe{
+
+    display: block;
+}
