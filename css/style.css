@@ -546,9 +546,7 @@ color: white;
 justify-content: space-evenly;
 }
 
-.lefttext{
 
-}
 
 .lefttext ul{
 
@@ -572,10 +570,7 @@ margin-right: 23px;
 padding: 0;
 }
 
-.lefttext ul li img{
 
-
-}
 
 .lefttext p{font-size: 17px;font-weight: 600;font-style: italic;}
 
@@ -602,9 +597,7 @@ font-weight: 600;
     
 }
 
-.cards{
 
-}
 
 .cards h3{
 
@@ -924,11 +917,7 @@ position: relative;
 
 }
 
-.ads a{
 
-
-
-}
 
 .ads h3{
 
@@ -950,7 +939,7 @@ padding: 52px 0;
 .adbuttons{position: absolute;top: 50%;transform: translateY(-50%);left: 62%;width: max-content;}
 
 
-.adtext{}
+
 
 .addbutton1{
 
@@ -974,4 +963,3 @@ padding: 52px 0;
     border: #008ed6;
 }
 
-.padding{}
