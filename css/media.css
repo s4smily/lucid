@@ -82,7 +82,145 @@
         line-height: 70px;
         font-size: 25px;
     }
-    
 
+    .responsive{
+
+        padding: 0 40px;
+        margin-bottom: 35px;
+    }
+    
+    .middlepart{
+
+        margin-bottom: 0;
+    }
+
+    .phonephoto {
+        width: 70%;
+        margin-bottom: 50px;
+        margin-right: 0;}
+
+    .dtexts{
+
+        text-align: center;
+        
+    }
+
+    .dtexts span {
+        margin: auto; }
+
+    .dtexts p{
+        margin-top: 40px;
+
+
+        }
+
+    .dtexts ul li{
+
+        display: inline;
+    }
+
+    .customize{
+
+        padding: 25px 0;
+    }
+
+    .textdiv{
+
+        text-align: center;
+    }
+
+    .textdiv span {
+        display: inline-block;
+    }
+
+    .customizetext{
+
+        justify-content: center;
+    }
+
+    .iphonephoto{
+
+        width: 400px;
+        margin: auto;
+    }
+
+    .adtext{
+
+        text-align: center;
+        margin: 0 20px;
+    }
+
+    .ads h3{
+
+        font-size: 40px;
+    }
+
+    .adbuttons{
+
+        justify-content: center;
+        margin: 0;
+        margin-bottom: 40px;
+    }
+    .text-center {
+        margin-bottom: 30px;
+        padding: 0 55px;
+    }
+
+    .buttontext button{
+
+        margin: 0 !important;
+        padding: 8px !important;
+        width: 120px;
+    }
+
+    .contact{
+
+        margin: 30px auto;
+    padding: 0;
+    }
+    .contacts{
+
+    
+        position: absolute;
+        top: 3%;
+        left: 50%;
+        transform: translateX(-50%);
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    .contactssec {
+        
+        padding-bottom: 750px;
+    }
+
+    .contactform {
+        width: 82%;
+        bottom: -20%;
+        left: 42%;
+        padding: 35px 25px; */
+    }
+
+    .googlemap iframe {
+        height: 300px;
+    }
+
+    .addressbar{
+
+        margin: 0;
+        padding: 0;
+    }
+
+    .lefttext p{
+
+        text-align: center;
+    }
+
+    .lefttext ul{
+
+        justify-content: center;
+    }
+    
 }
 
