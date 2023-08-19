@@ -1,0 +1,88 @@
+@media(max-width:575px){
+
+    .right{
+
+        position: static;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .content{
+
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+
+    .left{
+
+        margin-bottom: 30px;
+    }
+
+    .left h2 {
+    
+        font-size: 35px;
+        
+    }
+
+    .left p {
+        
+        font-size: 20px;
+        
+       
+    }
+
+    .left h4 {
+     
+        font-size: 15px;
+        
+    }
+
+    header {
+      
+        min-height: 100vh;
+    }
+
+    .btn{    font-size: 15px;
+    
+    width: 150px;}
+
+    .navbar-brand{
+
+        padding: 0;
+        padding-left: 25px;
+    }
+
+    .navbar-toggler_i{
+
+       
+        color: white;
+        font-size: 30px;
+       
+    }
+
+    .navbar-toggler{
+
+        padding: 0;
+        padding-right:25px;
+    }
+
+    .navbar-toggler:focus{
+
+        box-shadow: none;
+    }
+
+    .iconandtext {
+        margin-top: 20px;
+    }
+
+    .icon {
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+        font-size: 25px;
+    }
+    
+
+}
+
