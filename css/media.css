@@ -1,4 +1,5 @@
-@media(max-width:575px){
+
+@media(max-width:767px){
 
     .right{
 
@@ -6,6 +7,10 @@
         margin: auto;
         margin-top: 10px;
         margin-bottom: 20px;
+    }
+
+    .lefttext p {
+        padding: 0;
     }
 
     .content{
@@ -34,8 +39,7 @@
 
     .left h4 {
      
-        font-size: 15px;
-        
+font-size: 15px;
     }
 
     header {
@@ -223,4 +227,169 @@
     }
     
 }
+
+@media(max-width:425px){
+
+    .lefttext p {
+        padding: 0;
+    }
+    
+    
+    .ads h3 {
+    padding: 20px 0;
+    font-size: 25px;
+    }
+
+    .addbutton1{
+        font-size: 14px;
+        margin: 3px;
+        padding: 6px;
+        width: 35%;
+    }
+
+    .addbutton2{
+
+        font-size: 14px;
+        margin: 3px;
+        padding: 6px;
+        width: 35%;
+
+    }
+
+    .pricing1 h6 {
+        font-size: 16px;
+    }
+
+    .pricing1 h4 {
+        font-size: 30px;
+    }
+
+    .buttontext h6 {
+        font-size: 16px;
+        padding: 10px 10px;
+    }
+
+    .buttontext {
+        margin-bottom: 10px;
+    }
+
+    .contacts {
+        width: 80%;
+    }
+
+    .padding{
+
+        padding: 10px 0;
+    }
+
+    .contactform {
+        width: 93%;
+        bottom: -18%;
+        left: 50%;
+        margin: 0 !important;
+    }
+
+    .footeritems p {
+        padding-bottom: 25px;
+        font-size: 12px;
+    }
+
+}
+
+@media(max-width:320px){
+    
+    .left h2 {
+        font-size: 29px;
+    }
+
+    .left p {
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+    
+    .btn {
+        font-size: 11px;
+        width: 120px;
+    }
+
+    .text-center {
+        padding: 0px 20px;
+    }
+
+    .responsive p {
+
+        font-size: 16px;
+
+    }
+
+    .responsive h2 {
+
+        font-size: 25px;
+    }
+
+    .phonephoto {
+        width: 100%;
+    }
+
+    .dphoto {
+        margin: 25px 15px;
+    }
+
+    .dtexts h3 {
+        font-size: 16px;
+    }
+
+    .dtexts h2 {
+        font-size: 30px;
+    }
+
+    .dtexts p {
+        margin-top: 25px;
+    }
+
+    .textdiv h3 {
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+
+    .textdiv h6 {
+        font-size: 16px;
+    }
+
+
+
+    .lefttext p {
+        font-size: 14px;
+        font-weight: 200;
+    }
+
+    .pricing1 h4 {
+        margin-bottom: 0;
+    }
+
+    .ads h3 {
+        font-size: 25px;
+        padding: 26px 5px;
+    }
+
+    .adbuttons {
+        margin-bottom: 31px;
+        justify-content: space-evenly;
+    }
+
+    .addbutton1 {
+      margin: 0;
+    }
+
+    .addbutton2 {
+        margin: 0;
+    }
+
+    .pricing1 {
+        margin-bottom: 10px;
+    }
+    
+}
+
+
 

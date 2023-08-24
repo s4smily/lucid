@@ -182,7 +182,7 @@ position: absolute;
 
 right: -30px;
 
-width: 40%;
+width: 42%;
 
 bottom: 0%;
 
@@ -590,7 +590,7 @@ padding: 0;
 
 
 
-.lefttext p{font-size: 17px;font-weight: 600;font-style: italic;}
+.lefttext p{font-size: 17px;font-weight: 600;font-style: italic;padding-right: 69px;text-align: justify;}
 
 .lefttext ul li h5{
 
@@ -820,6 +820,8 @@ font-size: 13px;
 font-weight: bold;
 
 color: #999999;
+
+width: 105px;
 }
 
 .textarea button:hover{
@@ -944,11 +946,13 @@ justify-content: space-between;
 
 /* padding-top: 50px; */
 
-font-size: 32px;
+font-size: 40px;
 
 font-weight: 600;
 
 padding: 52px 0;
+
+text-align: center;
 }
 
 .advertise{
